@@ -1,0 +1,14 @@
+# Astrax - Agentic System Telemetry, Realtime Automation & X-control
+# Recomendado: usa `uvx` (ver README). Alternativa: pip install -r requirements.txt
+
+# Servidor MCP (incluye FastMCP y la CLI `mcp dev`)
+mcp[cli]>=1.2.0,<2
+
+# Control de ratón/teclado y capturas de pantalla
+pyautogui>=0.9.54
+
+# Procesamiento de imágenes (captura y reescalado)
+Pillow>=10.0.0
+
+# Portapapeles: escribir caracteres no ASCII (ñ, tildes, emojis) y herramienta de portapapeles
+pyperclip>=1.8.2

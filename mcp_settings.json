@@ -1,0 +1,25 @@
+{
+  "mcpServers": {
+    "astrax": {
+      "command": "uvx",
+      "args": [
+        "--from",
+        "git+https://github.com/AstraxOf/astrax-mcp.git",
+        "astrax-mcp"
+      ],
+      "alwaysAllow": [
+        "astrax_tarea_crear",
+        "astrax_tarea_estado",
+        "astrax_tarea_guardar",
+        "astrax_tarea_completar_paso",
+        "astrax_tarea_limpiar",
+        "astrax_info_pantalla",
+        "astrax_ver_pantalla",
+        "astrax_capturar_pantalla",
+        "astrax_acciones",
+        "astrax_portapapeles",
+        "astrax_ejecutar_comando"
+      ]
+    }
+  }
+}
